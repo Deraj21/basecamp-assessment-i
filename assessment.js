@@ -39,18 +39,11 @@ var responseCreator = function(param){
     return colorResponse;
 }
 
-// #9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
+#9 Create a function called 'sum' that takes in a parameter and returns the sum of that parameter.
+  // (param added to itself)
 
-
-/* The sum of the parameter and what? I assume you mean an array of values..? It doesn't pass the tests when I click the 'index.html' but I'm not sure what you want here.
-*/
-
-function sum (numbers) {
-    var total = 0;
-    for (var i = 0; i < numbers.length; i++) {
-        total += numbers[i];
-    }
-    return total;
+function sum (num) {
+    return num + num[M G*;
 }
 
 // #10 Create a function called greeter that takes in two parameters, name(a string) and number(a number). Have greeter return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values.
